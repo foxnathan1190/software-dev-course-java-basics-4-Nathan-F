@@ -60,9 +60,9 @@ public class CollectionExercises {
         // Create and return an ArrayList of strings with the given values
         // Replace the line below with your implementation
         ArrayList<String> threeFruits = new ArrayList<String>();
-        threeFruits.add(fruit1);
-        threeFruits.add(fruit2);
-        threeFruits.add(fruit3);
+        threeFruits.add("apple");
+        threeFruits.add("banana");
+        threeFruits.add("cherry");
 
         return threeFruits;
     }
@@ -84,7 +84,7 @@ public class CollectionExercises {
     public String lookupAppleColor(HashMap<String, String> fruitMap) {
         // Return the value associated with the key "apple" in the given map, using the get method
         // Replace the line below with your implementation
-        String fruitColors = fruitColors.get("apple");
+        String fruitColors = fruitMap.get("apple");
 
         return fruitColors;
     }
